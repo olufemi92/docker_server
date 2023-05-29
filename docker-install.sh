@@ -7,3 +7,5 @@ sudo apt-key fingerprint 0EBFCD88
 sudo apt-get update -y
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y 
 sudo usermod -aG docker $USER
+sudo usermod -aG docker ubuntu
+sudo reboot
